@@ -1,15 +1,16 @@
 body {
     margin: 0;
     font-family: 'Roboto', arial;
-
 }
 
 a {
     color: black;
 }
+
 a:hover {
     color: blue;
 }
+
 .container {
     display: flex;
     flex: 1;
@@ -79,15 +80,15 @@ h1 {
     padding: 100px 0px 100px 0px;
     align-items: center;
     text-align: center;
-    font-weight: bolder;
-    
+    font-weight: bolder; 
 }
+
 .content-info {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;  
 }
+
 .content-info img {
     width: 200px;
     height: 200px;
@@ -108,9 +109,9 @@ h1 {
 .quote p {
     font-size: 36px;
     font-style: italic;
-    width: 50%;
-    
+    width: 50%;  
 }
+
 .quote b {
     padding-left: 300px;
 }
@@ -121,6 +122,7 @@ h1 {
     border-radius: 15px;
     display: flex;
 }
+
 .sign-item{
     margin-left: 15px;
     justify-content: center;
@@ -138,6 +140,5 @@ h1 {
 }
 
 .footer {
-    margin-bottom: 0px;
     text-align: center;
 }
